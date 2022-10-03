@@ -1,0 +1,49 @@
+.main-conteiner{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.main-title{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.main-title .title{
+    color: white;
+    font-size: 70px;
+}
+
+.main-parf {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    width: 70%;
+}
+.main-button{
+    display: flex;
+}
+
+.primaty-button{
+    background-color: #00bec9;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+.secundary-button{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+}

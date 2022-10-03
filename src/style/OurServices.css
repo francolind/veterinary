@@ -1,0 +1,33 @@
+.our-services-conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-title p {
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+}
+.content-card{
+    display: flex;
+    
+}
+.card{
+    margin: 20px 50px;
+}
+.card h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 25px;
+    text-align: start;
+}

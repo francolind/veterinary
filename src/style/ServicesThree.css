@@ -1,0 +1,29 @@
+.services-three-conteiner{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 700px;
+    z-index: -10;
+}
+.container-sev{
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.container-sev h2{
+    font-size: 60px;
+    display: flex;
+}
+.container-sev p{
+    font-size: 30px;
+}
+.service-back{
+    position: absolute;
+    width: 200px;
+    top: 27em;
+    left: 33em;
+    z-index: -1;
+}

@@ -1,0 +1,6 @@
+.data-conteiner{
+    background-image: url('../assets/data.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}

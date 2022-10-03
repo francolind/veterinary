@@ -1,0 +1,65 @@
+.service-one-conteiner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    height: 700px;   
+}
+
+.service-title{
+    margin-left: 100px;
+}
+
+.titletwo {
+    font-size: 60px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto;
+    
+}
+.service-p{
+    font-size: 30px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 15px auto;
+}
+
+.button-orange {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0  0 8em;
+    background-color: #fcc302;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+   
+}
+.service-video{
+    
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.service-video .dog {
+    position: absolute;
+    top: 140px;
+    margin-left: 110px;
+    z-index: 20;
+}
+
+.service-video .back{
+    position: absolute;
+    top: 380px;
+    margin-left: 80px;
+    width: 200px;
+    z-index: 1;
+    
+} 
+
