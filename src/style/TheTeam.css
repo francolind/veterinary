@@ -23,3 +23,8 @@
 .card {
     margin-bottom: 50px;
 }
+
+.social-media img:hover{
+    cursor: pointer;
+
+}

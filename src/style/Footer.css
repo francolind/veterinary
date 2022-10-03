@@ -30,3 +30,15 @@
 .social-media img{
         margin: 0 10px 0 0 ;
 }
+
+.footer-about p:hover{
+    cursor: pointer;
+}
+
+.footer-services p:hover{
+    cursor: pointer;
+}
+
+.footer-social img{
+    cursor: pointer;
+}

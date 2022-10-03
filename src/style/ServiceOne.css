@@ -41,6 +41,11 @@
     font-size: 20px;
    
 }
+.button-orange:hover{
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+}
 .service-video{
     
     width: 50%;
