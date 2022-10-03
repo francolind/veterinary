@@ -21,6 +21,11 @@ li{
     display: flex;
     justify-content: space-evenly;
 
+
+}
+
+.header-menu li :hover {
+    cursor: pointer;
 }
 
 .header-menu ul {
