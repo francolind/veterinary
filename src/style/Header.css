@@ -9,6 +9,9 @@
     align-items: center;
     
 }
+.header-menu-hamburger{
+    display: none;
+}
 .header-logo img {
     width: 200px;
 }
@@ -59,4 +62,26 @@ li{
     font-size: 20px;
     font-family: sans-serif;
     padding: 20px;
+}
+
+
+@media (max-width: 900px) {
+    
+    .header-menu{
+        display: none;
+    }
+    .header-search{
+        display: none;
+    }
+    .header-conteiner{
+        max-width: 100vw;
+        width: 100vw;
+        justify-content: space-around;
+    }
+    .header-menu-hamburger{
+        display: block;
+    }
+    .header-menu-hamburger img {
+        width: 100px;
+    }
 }

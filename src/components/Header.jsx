@@ -1,5 +1,6 @@
 import '../style/Header.css';
 import search from '../assets/search.png';
+import menu from '../assets/menuW.png';
 import Logo from '../assets/Logo.png'
 
 export const Header = () => {
@@ -15,6 +16,9 @@ export const Header = () => {
                         <li>sevice</li>
                         <li>contact</li>
                     </ul>
+                </div>
+                <div className='header-menu-hamburger'>
+                    <img src={menu} alt="" />
                 </div>
                 <div className='header-search'>
                     <input type="text" placeholder="search..." />

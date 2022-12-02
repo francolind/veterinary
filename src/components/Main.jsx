@@ -13,7 +13,7 @@ export const Main = () => {
                     <button className='secundary-button'>our service</button>
                     </div>
                 </div>
-                <div>
+                <div className='main-img'>
                      <img src={pidbull} alt="dog" />
                 </div>
         </div>

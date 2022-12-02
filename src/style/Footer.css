@@ -42,3 +42,23 @@
 .footer-social img{
     cursor: pointer;
 }
+
+@media (max-width: 900px){
+    .footer-conteiner{
+        max-width: 100vw;
+    }
+    .footer-about{
+        display: none;
+    }
+    .footer-services{
+        display: none;
+    }   
+    .footer-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-social p{
+        font-size: 10px;
+    }
+}

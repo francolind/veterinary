@@ -27,3 +27,22 @@
     left: 33em;
     z-index: -1;
 }
+@media (max-width: 900px){
+    .services-three-conteiner{
+        max-width: 100vw;
+    }
+    .services-video img {
+        width: 200px;
+    }
+    .services-three-conteiner{
+        flex-direction: column;
+    }
+    .container-sev{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .button-orange{
+        margin: 0;
+    }
+}

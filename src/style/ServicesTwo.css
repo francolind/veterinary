@@ -38,3 +38,14 @@
     color: white;
     font-size: 30px;
 }
+@media (max-width: 900px){
+    .services-two-conteiner{
+        max-width: 100vw;
+    }
+    .container-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

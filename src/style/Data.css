@@ -4,3 +4,27 @@
     background-repeat: no-repeat;
     height: 700px;
 }
+.data-img{
+    display: none;
+}
+
+@media (max-width: 900px){
+    .data-conteiner{
+        max-width: 100vw;
+        height: auto;
+        width: 100%;
+        background-image: none;
+    }
+    .data-img{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .data-img img{
+        width: 50%;
+        
+    }
+}

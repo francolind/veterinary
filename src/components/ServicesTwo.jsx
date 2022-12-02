@@ -7,7 +7,7 @@ import '../style/ServicesTwo.css'
 export const ServicesTwo = () => {
     return(
 
-        <div className="services-two-conteiner ">
+        <div className="services-two-conteiner">
              <div className="services-title">
                     <h2>our best services</h2>
                     <p>We have a wide range of services, with the best experience</p>
