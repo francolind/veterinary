@@ -4,7 +4,13 @@ html body {
     box-sizing: border-box;
     background-color: #fcc302;
     font-family: sans-serif;
-    overflow-x: hidden
+    overflow-x: hidden;
+    overflow: hidden;
+ 
+}
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 .App{
     width: 100%;
@@ -19,4 +25,7 @@ html body {
     .App{
         width: 100vw;
     }
+    body{
+        overflow-x: hidden;
+     }
 }
