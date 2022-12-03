@@ -6,16 +6,16 @@ import close from '../assets/closeW.png'
 import { useState } from 'react';
 
 export const Header = () => {
-    const [actMenu,setActMenu] = useState(true);
+    const [actMenu,setActMenu] = useState(false);
     const toggleMenu = ()=>{
-        setActMenu(!menu)
+        setActMenu(!actMenu)
     }
     return(
             <div className="header-conteiner">
                 <div className="header-logo">
                     <img src={Logo} alt="Logo" />
                 </div>
-                <div className={`header-menu ${actMenu ? 'isActive' : ''} `}>
+                <div className={ actMenu ? 'header-menu' : 'menu'}>
                     <ul>
                         <li>home</li>
                         <li>about</li>
@@ -24,8 +24,8 @@ export const Header = () => {
                     </ul>
                 </div>
                 <div className='button-menu' onClick={toggleMenu}>{
-                    actMenu ? (<img className='button-menu-ham' src={close} alt="" />) :
-                    (<img className='button-menu-close' src={menu} alt="" />)
+                    actMenu ? (<div><img className='button-menu-ham' src={close} alt="" /></div>) :
+                    (<div><img className='button-menu-close' src={menu} alt="" /></div>)
                 }
                 </div>
                 <div className='header-search'>
@@ -35,4 +35,3 @@ export const Header = () => {
             </div> 
     )
 };
-// {`header-menu ${true ? 'isActive' : ''} `}
