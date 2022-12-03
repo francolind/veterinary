@@ -104,13 +104,13 @@ li{
     .button-menu-ham{
         width: 50px;
         display: initial;
-        cursor: pointer;
         z-index: 10;
+        pointer-events: none;
     }
     .button-menu-close{
         width: 50px;
-        cursor: pointer;
         z-index: 10;
+        pointer-events: none;
     }
    
     .header-menu{
