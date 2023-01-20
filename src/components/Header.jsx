@@ -1,8 +1,8 @@
 import '../style/Header.css';
 import search from '../assets/search.png';
-import menu from '../assets/menuW.png';
+import menu from '../assets/menuA.png';
 import Logo from '../assets/Logo.png'
-import close from '../assets/closeW.png'
+import close from '../assets/x.png'
 import { useState } from 'react';
 
 export const Header = () => {

@@ -9,9 +9,7 @@
     align-items: center;
     
 }
-.header-menu-hamburger{
-    display: none;
-}
+
 .header-logo img {
     width: 200px;
 }
@@ -25,6 +23,20 @@ li{
     justify-content: space-evenly;
 
 
+}.menu li:hover {
+    cursor: pointer;
+    background-color: #b8972c;
+    margin: 0;
+    padding: 8px 38px;
+    border: 2px solid black;
+    color: black;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1px ;
 }
 
  .header-menu li:hover {
@@ -35,8 +47,6 @@ li{
     border: 2px solid black;
     color: black;
 }
-
-
 
 
 .header-menu ul {
@@ -63,9 +73,15 @@ li{
     font-family: sans-serif;
     padding: 20px;
 }
+.button-menu{
+    display: none;
+}
 
 
 @media (max-width: 900px) {
+    .header-menu{
+        display: none;
+    }
     .menu{
         display: flex ;
         background-color: #fcc302;
